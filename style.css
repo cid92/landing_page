@@ -4,52 +4,35 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    padding-left: 150px;
-    padding-right: 150px;
+
   }
-  
-  .header {
-    height: 72px;
-    background:#1F2937;
-    color: white;
-    font-size: 32px;
-    font-weight: 900;
-    display: flex;
-    align-items: center;
-    padding-left: 16px;
-  }
-  
-  .footer {
-    height: 72px;
-    background: #1F2937;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
 
 .header{
   font-size: 48px;
   font-weight: 900;
+  background:#1F2937;
   color: #F9FAF8;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-
+  align-items: baseline;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
+.logo{
+  font-size: 24px;
+  color: #F9FAF8;
+  min-width: 265px;
+}
 
-ul .links {
+ul {
   display: flex;
   list-style-type: none;
   gap: 40px;
-  align-content: center;
-}
-
-li{
-  display: flex;
-  align-items: center;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
 }
 
 a {
@@ -59,19 +42,88 @@ a {
   font-size: 18px;
   color: #E5E7EB;
 }
+  
+.footer {
+    height: 72px;
+    background: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 .intro{
   display: flex;
   flex-direction: row;
+  background:#1F2937;
+  font-size: 18px;
+  color: #E5E7EB;
+  justify-content:space-between;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
 }
 
 .subtext{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  flex:none;
+  width: 25%;
+  padding-left: 150px;
+  min-width: 265px;
 }
 
-.button {
-  width: 10px;
+span.hero_main
+{
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  margin-bottom: 18px;
+}
+
+button {
+  background-color: #3882F6;
+  width: 100px;
+  border-radius: 12px;
+  border: 0px;
+  padding: 10px;
+  color: #f9faf8;;
+  font-weight: 900;
+  margin-top: 18px;
+}
+
+.placeholder{
+  display: flex;
+  align-items: center;
+  margin-right: 150px;
+  background: dimgray;
+  padding: 50px;
+}
+
+
+
+.quote
+{
+  display: flex;
+  flex-direction: column;
+  background: #E5E7EB;
+  padding: 250px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+}
+
+.quote_content
+{
+  font-size: 36px;
+  font-style: italic;
+  color: grey;
+
+}
+
+.quote_by
+{
+  align-self: flex-end;
+  font-weight: 900;
+
 }
