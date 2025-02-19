@@ -73,23 +73,26 @@ a {
   min-width: 265px;
 }
 
+span
+{
+  font-weight: 900;
+  font-size: 20px;
+}
+
 span.hero_main
 {
   font-size: 48px;
   color: #f9faf8;
-  font-weight: 900;
   margin-bottom: 18px;
 }
 
-button {
+.button {
   background-color: #3882F6;
   width: 100px;
   border-radius: 12px;
-  border: 0px;
   padding: 10px;
-  color: #f9faf8;;
+  color: #f9faf8;
   font-weight: 900;
-  margin-top: 18px;
 }
 
 .placeholder{
@@ -126,4 +129,38 @@ button {
   align-self: flex-end;
   font-weight: 900;
 
+}
+
+.call_action
+{
+  background: #3882F6;
+  margin: 150px;
+  margin-top:4%;
+  margin-bottom: 4%;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  padding: 50px;
+}
+
+.top
+{
+  margin-top: 18px;
+  border: 0px;
+}
+
+.bottom
+{
+  justify-content: center;
+  border-color: #f9faf8;
+  margin: 10px;
+  border-style:solid;
+}
+
+.text_action
+{
+  display: flex;
+  flex-direction: column;
 }
